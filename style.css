@@ -1,0 +1,21 @@
+body,html{
+	margin:0;
+	padding:0;
+	height:100%;
+}
+body{
+	padding:10px;
+	padding-bottom: 60px
+}
+
+.content-container{
+	min-height: 100%;
+	position: relative;
+}
+footer{
+	background-color: #ffffff;
+	display: block;
+	position:absolute;
+	margin-bottom: 0;
+	bottom:0;
+}
