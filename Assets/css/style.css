@@ -6,7 +6,7 @@ body{
 input[type=text] {
     width: 600px;
     padding: 10px 20px 10px;
-    margin: 10px 0 0 20px;
+    margin: 0 0 0 20px;
     box-sizing: border-box;
     border: 1px solid #dddddd;
  }
@@ -18,8 +18,18 @@ input[type=text] {
     color: white;
     padding: 16px 32px;
     font-family: Arial;
-    margin: 4px 2px;
+    font-size: 18px;
+    margin: 20px 2px 40px 20px;
     cursor: pointer;
+}
+
+input[type=submit]:hover{
+	background-color: #489aa8;
+}
+
+.content-text label{
+	font-size: 10px
+	padding-left: 20px;
 }
 
 .headings{
@@ -268,10 +278,13 @@ input[type=text] {
     padding: 12px 20px;
     margin: 10px 0 0 20px;
     box-sizing: border-box;
-    border-radius: 4px;
-    background-color: #f8f8f8;
+    background-color: #ffffff;
     font-size: 16px;
-	border: 2px solid #dddddd;
-    resize: both;
-    overflow: auto;
+	border: 1px solid #dddddd;
 }
+
+.contact-labels{
+	padding-left: 20px;
+	line-height: 2.5;
+}
+
