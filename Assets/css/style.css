@@ -1,0 +1,277 @@
+
+body{
+	background-image: url("../images/white_wall.png"); 
+}
+
+input[type=text] {
+    width: 600px;
+    padding: 10px 20px 10px;
+    margin: 10px 0 0 20px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+ }
+
+ input[type=submit]{
+    background-color: #4aaaa5;
+    box-sizing: border-box;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-family: Arial;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.headings{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	font-size: 30px;
+	color: #4aaaa5;
+}
+
+.content-text{
+	font-family: 'Arial', Helvetica Neue, Helvetica, sans-serif;
+	color: #777777;
+}
+
+.content-text footer{
+	text-align: center;
+	font-size: 15px;
+	color: #ffffff;
+	padding-top: 20px;
+}
+
+.content-text p{
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 40px;
+	padding-bottom: 25px;
+	line-height: 2;
+}
+
+.header{
+	margin-bottom: 130px;
+	background-color: #ffffff;
+	height: 65px; 
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+	position: fixed;
+	width:100%;
+	z-index: 500;
+	top: 0;
+}
+
+.footer{
+	background-color: #666666;
+	height: 65px; 
+	border-top-width: 4px;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+	width:100%;
+	z-index: 500;
+	bottom: 0;
+	margin-top: 20px;
+}
+
+.header .inner-header{
+	width: 950px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left:auto;
+	position: relative;
+}
+
+.headerLogo{
+	display: block;
+	float: left;
+	background-color: #4aaaa5;
+	height: 65px;
+	width: 300px;
+	margin-left: -160px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 2.2;
+}
+
+#topMenu{
+	float:right;
+	margin-top: -6px;
+}
+
+#topMenu .mainMenu{
+	margin: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+
+#topMenu .mainMenu li{
+	float: left;
+	margin-right: 0;
+	padding-bottom: 11px;
+	letter-spacing: 1px;
+}
+
+#topMenu .mainMenu li a{
+	display: block;
+	border-right: solid #777777 1px;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 15px;
+	color: #777777;
+	padding: 24px 20px 22px 0;
+	margin-right:20px;
+	margin-top: 0px;
+	text-decoration: none;
+}
+
+.main-menu-container{
+	height: 64px;
+}
+
+#topMenu .mainMenu li a:hover{
+	border-bottom: 0;
+	color: #333;
+}
+
+#topMenu .mainMenu li a.active{
+	color:#999;
+}
+
+#topMenu .mainMenu li.current_page_item a{
+	color: #4aaaa5 !important;
+}
+
+.wrapper{
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	width:960px;
+	height:100%;
+}
+
+.content-container{
+	float: left;
+	padding-left: 0;
+	overflow: hidden;
+	width: 960px;
+	margin: 40px 0 0 0;
+}
+
+.content{
+	width: 960px;
+	min-height: calc(100vh - 70px);
+	padding-top: 90px;
+	padding-bottom: 90px;
+	float: left;
+}
+
+.main-content{
+	display: inline-block;
+	background-color: #ffffff;
+	width: 650px;
+}
+
+.main-content-header{
+	padding-top: 20px;
+}
+
+.main-content-header-border{
+	border-bottom: solid #dddddd 1.5px;
+	padding-bottom: 20px;
+	margin-left: 25px;
+	margin-right: 25px;
+	line-height: 1.5;
+}
+#profile-pic{
+	display: block;
+	float:left;
+	max-height: 200px;
+	max-width: 200px;
+	padding-left: 25px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.connectHeader{
+	display: block;
+	font-size: 20px;
+	width: 260px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.connectSidebar{
+	display:block;
+	float:right;
+	background-color: #ffffff;
+	width: 270px;
+	height: 190px;
+}
+
+ .connectSidebar li{
+	float:left;
+	padding-bottom: 11px;
+	padding-left: 6px;
+}
+
+ .connectSidebar li a{
+	display: block;
+	margin-left:20px;
+}
+
+#img-link-size{
+	max-height: 55px;
+	max-width: 55px;
+
+}
+
+.sidebar-border{
+	border-bottom: solid #dddddd 1px;
+	margin-left:25px;
+	margin-right:25px;
+	line-height: 2.2;
+}
+
+.gallery{
+	margin: 15px 35px 35px 35px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 250px;
+}
+
+.gallery:hover{
+	border: 1px solid #777
+}
+.gallery img{
+	width: 100%;
+	height: 175px;
+}
+
+.desc{
+	padding: 15px;
+	margin-bottom: 5px;
+	text-align: center;
+	font-size: 15px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+}
+.message-box{
+	width: 600px;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 10px 0 0 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+	border: 2px solid #dddddd;
+    resize: both;
+    overflow: auto;
+}
